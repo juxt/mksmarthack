@@ -2,7 +2,7 @@
   (:require
    [aero.core :as aero]
    [clojure.java.io :as io]
-   [mksmarthack.listener :refer [new-listener]]
+   [mksmarthack.core :refer [new-listener]]
    [com.stuartsierra.component :refer [system-map system-using]]))
 
 (defn configure [system profile]
